@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      EDGE_SRE_SIMULATION_ENV: "container"
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - edge-sre-data:/var/lib/edge-sre
+    restart: unless-stopped
+
+volumes:
+  edge-sre-data:
