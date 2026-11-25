@@ -1,0 +1,10 @@
+# Minimal dependencies for initial dataset exploration.
+# Install only inside the project-local Python 3.11 virtual environment.
+ipykernel>=7.4,<8
+jupyter>=1.1,<2
+matplotlib>=3.11,<4
+numpy>=2.4,<3
+pandas>=3.1,<4
+pyarrow>=26,<27
+scikit-learn>=1.9,<2
+seaborn>=0.13,<0.14
