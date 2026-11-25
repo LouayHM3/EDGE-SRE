@@ -1,7 +1,0 @@
-.venv
-.git
-data
-models
-results
-notebooks
-**/__pycache__
